@@ -77,20 +77,21 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
 <div align="center">
 
 <table>
+  
   <!-- Screenshot 1 -->
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Input 1" width="250px"></td>
-    <td><img src="https://via.placeholder.com/250" alt="Output 1" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/1056690b-3414-4f5f-94b4-8b740aa90c38" alt="Input 1" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/ce75a909-7916-4e31-b505-e15517cd703c" alt="Output 1" width="250px"></td>
   </tr>
   <tr>
     <td><b>Input 1</b></td>
     <td><b>Output 1</b></td>
   </tr>
-  
+    
   <!-- Screenshot 2 -->
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Input 2" width="250px"></td>
-    <td><img src="https://via.placeholder.com/250" alt="Output 2" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/27d8e92a-47a5-4e45-9c4a-7e28a6ed365b" alt="Input 2" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/6f5285cb-428e-4072-9b4a-5b3594895b68" alt="Output 2" width="250px"></td>
   </tr>
   <tr>
     <td><b>Input 2</b></td>
@@ -99,8 +100,8 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
   
   <!-- Screenshot 3 -->
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Input 3" width="250px"></td>
-    <td><img src="https://via.placeholder.com/250" alt="Output 3" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/8ce43db1-fd20-4e8f-847f-56557eb9f139" alt="Input 3" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/ff3747e8-cf90-428f-bdbb-18c653c75de0" alt="Output 3" width="250px"></td>
   </tr>
   <tr>
     <td><b>Input 3</b></td>
@@ -109,8 +110,8 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
   
   <!-- Screenshot 4 -->
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Input 4" width="250px"></td>
-    <td><img src="https://via.placeholder.com/250" alt="Output 4" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/44e9f332-3d5e-4915-b873-7ac53249514c" alt="Input 4" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/ef05b5ba-c61e-4134-8950-52eeed57645d" alt="Output 4" width="250px"></td>
   </tr>
   <tr>
     <td><b>Input 4</b></td>
@@ -119,8 +120,8 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
   
   <!-- Screenshot 5 -->
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Input 5" width="250px"></td>
-    <td><img src="https://via.placeholder.com/250" alt="Output 5" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/9576ab20-969d-4323-9520-b91903a11369" alt="Input 5" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/c341d2ee-b800-46b6-98fa-3c54f24ca3ec" alt="Output 5" width="250px"></td>
   </tr>
   <tr>
     <td><b>Input 5</b></td>
@@ -129,8 +130,8 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
   
   <!-- Screenshot 6 -->
   <tr>
-    <td><img src="https://via.placeholder.com/250" alt="Input 6" width="250px"></td>
-    <td><img src="https://via.placeholder.com/250" alt="Output 6" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/1ba2a25e-214f-4798-ae12-98aa3acb590f" alt="Input 6" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/9980a2f2-812e-42d2-a2e0-7675e184f185" alt="Output 6" width="250px"></td>
   </tr>
   <tr>
     <td><b>Input 6</b></td>
