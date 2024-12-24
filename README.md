@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌟 **MoodLyft Mirror** 🌟  
+# 🌟 **MoodLyft Mirror Input Emotion Analyzer** 🌟  
 ### *Elevating your mood with intelligent emotion detection*
 
 ![Build Passing](https://img.shields.io/badge/build-passing-success?style=flat-square)
@@ -20,14 +20,14 @@
 
 ---
 
-## **📱 What is MoodLyft Mirror?**
+## **📱 What is MoodLyft Mirror Input Emotion Analyzer?**
 
-The **MoodLyft Mirror** is an advanced emotion detection project that leverages AI to:
-- Recognize emotions in real-time through facial analysis.
-- Provide uplifting and personalized compliments based on detected emotions.
-- Utilize a sleek and modern UI to enhance user experience.
+The **MoodLyft Mirror Input Emotion Analyzer** is a comprehensive emotion detection tool that leverages AI to:
+- **Analyze Emotions in Media:** Detect emotions in static images and videos by processing files placed in designated input folders.
+- **Provide Uplifting and Personalized Compliments:** Generate tailored compliments based on detected emotions to enhance user experience.
+- **Organized Input/Output Workflow:** Easily manage your media by placing inputs in specific directories and accessing analyzed outputs effortlessly.
 
-> *"Enhance your day by visualizing and understanding your emotions!"*
+> *"Enhance your day by visualizing and understanding your emotions through your media!"*
 
 ---
 
@@ -46,16 +46,16 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
 ## **✨ Features**  
 
 ### **Emotion Detection**
-- Real-time emotion recognition using advanced AI algorithms.
-- Displays dominant emotions like happiness, sadness, anger, and more.
+- **Analyze Emotions in Media:** Detect emotions in uploaded images and videos using advanced AI algorithms.
+- **Displays Dominant Emotions:** Identify and display emotions such as happiness, sadness, anger, and more.
 
 ### **Personalized Compliments**
-- Intelligent compliments tailored to your mood.
-- Text-to-speech (TTS) functionality to deliver compliments audibly.
+- **Tailored Uplifting Messages:** Generate intelligent compliments based on the detected emotions.
+- **Text-to-Speech (TTS) Functionality:** Deliver compliments audibly for an enhanced interactive experience.
 
-### **Modern UI**
-- Sleek, frosted-glass design with animated effects.
-- Dynamic FPS display for smooth performance insights.
+### **Organized Input/Output Workflow**
+- **Structured Directories:** Place your input media in designated folders and retrieve analyzed outputs from organized directories.
+- **Seamless Processing:** Easily manage and process multiple media files with minimal effort.
 
 ---
 
@@ -205,14 +205,18 @@ Stay tuned for future releases!
     pip install -r requirements-windows.txt
     ```
 
-4. **Run the Application**
+4. **Add Your Media**
+- **Images:** Place your input images in the `Input/Images` directory.
+- **Videos:** Place your input videos in the `Input/Videos` directory.
+
+5. **Run the Application**
    ```bash
    python main.py
    ```
 
-5. **Experience the App**
-   - Ensure your webcam is connected and accessible.
-   - Follow on-screen instructions and enjoy!
+6. **View Results**
+   - Processed images will be saved in Output/analyzedImages.
+   - Processed videos will be saved in Output/analyzedVideos.
 
 ---
 
