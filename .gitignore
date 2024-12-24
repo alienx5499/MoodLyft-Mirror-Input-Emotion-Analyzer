@@ -1,0 +1,64 @@
+# Ignore the virtual environment directory
+MoodLyft-Mirror-Input-Emotion-Analyzer/moodlyft_env/
+
+# General Python ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment-related files
+*.env
+*.venv
+env/
+venv/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+*.bak
+*.swp
+
+# Dependency directories
+Input/Images/
+Input/Videos/
+Output/analyzedImages/
+Output/analyzedVideos/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Git-specific
+*.idx
+*.pack
+*.rev
+COMMIT_EDITMSG
+FETCH_HEAD
+HEAD
+logs/
+refs/
+
+# Files to ignore
+requirements-macos.txt
+requirements-windows.txt
+
+# Ignore binaries or compiled files
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.env
