@@ -137,6 +137,16 @@ The **MoodLyft Mirror Input Emotion Analyzer** is a comprehensive emotion detect
     <td><b>Input 6</b></td>
     <td><b>Output 6</b></td>
   </tr>
+
+  <!-- Screenshot 7 -->
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f6a2156c-effb-4d35-b3c1-9c0ab43940ee" alt="Input 6" width="250px"></td>
+    <td><img src="https://github.com/user-attachments/assets/b24c80b6-f3bf-4ffe-afad-662f8b9da1c5" alt="Output 6" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 6</b></td>
+    <td><b>Output 6</b></td>
+  </tr>
 </table>
 
 </div>
