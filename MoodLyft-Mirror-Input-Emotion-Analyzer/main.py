@@ -95,7 +95,7 @@ COMPLIMENTS = {
 }
 
 ########################################
-# COLOR MAP AND EMOJIS
+# COLOR MAP
 ########################################
 # Defines a color map for each emotion to visually differentiate them in the output.
 COLOR_MAP = {
@@ -106,18 +106,6 @@ COLOR_MAP = {
     "surprise": (255, 165, 0),    # Orange
     "fear": (138, 43, 226),       # Blue Violet
     "disgust": (50, 205, 50)      # Lime Green
-}
-
-# Associates each emotion with a corresponding emoji for expressive annotations.
-# Note: Emojis are removed from overlay labels due to OpenCV's limitations.
-EMOJIS = {
-    "happy": "😊",
-    "neutral": "😌",
-    "sad": "🥺",
-    "angry": "😤",
-    "surprise": "😲",
-    "fear": "😨",
-    "disgust": "😖"
 }
 
 ########################################
@@ -168,7 +156,6 @@ class EmotionDetector:
                 dominant_emotion = max(emotions, key=emotions.get)  # Identifies the dominant emotion.
                 confidence = emotions[dominant_emotion] * 100  # Converts to percentage.
                 color = COLOR_MAP.get(dominant_emotion, (255, 255, 255))  # Selects color based on emotion.
-                # Remove emoji from label to ensure compatibility with OpenCV's putText
                 label = f"{dominant_emotion.title()} ({confidence:.1f}%)"  # Creates label text.
                 
                 # Draws a rectangle around the face.
