@@ -167,7 +167,8 @@ Stay tuned for future releases!
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/alienx5499/MoodLyft-Mirror-Input-Emotion-Analyzer.git
-   cd MoodLyft-Mirror
+   cd MoodLyft-Mirror-Input-Emotion-Analyzer
+   cd MoodLyft-Mirror-Input-Emotion-Analyzer
    ```
 
 2. **Set Up a Virtual Environment**
