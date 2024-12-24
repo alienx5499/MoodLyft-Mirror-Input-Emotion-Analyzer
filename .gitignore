@@ -22,12 +22,6 @@ Thumbs.db
 *.bak
 *.swp
 
-# Dependency directories
-Input/Images/
-Input/Videos/
-Output/analyzedImages/
-Output/analyzedVideos/
-
 # Editor-specific files
 .vscode/
 .idea/
