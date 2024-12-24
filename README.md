@@ -77,16 +77,65 @@ The **MoodLyft Mirror** is an advanced emotion detection project that leverages 
 <div align="center">
 
 <table>
-<tr>
-  <td><img src="https://via.placeholder.com/250" alt="Emotion Detection" width="250px"></td>
-  <td><img src="https://via.placeholder.com/250" alt="Modern UI" width="250px"></td>
-  <td><img src="https://via.placeholder.com/250" alt="Compliments in Action" width="250px"></td>
-</tr>
-<tr>
-  <td><b>Emotion Detection</b></td>
-  <td><b>Modern UI</b></td>
-  <td><b>Compliments in Action</b></td>
-</tr>
+  <!-- Screenshot 1 -->
+  <tr>
+    <td><img src="https://via.placeholder.com/250" alt="Input 1" width="250px"></td>
+    <td><img src="https://via.placeholder.com/250" alt="Output 1" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 1</b></td>
+    <td><b>Output 1</b></td>
+  </tr>
+  
+  <!-- Screenshot 2 -->
+  <tr>
+    <td><img src="https://via.placeholder.com/250" alt="Input 2" width="250px"></td>
+    <td><img src="https://via.placeholder.com/250" alt="Output 2" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 2</b></td>
+    <td><b>Output 2</b></td>
+  </tr>
+  
+  <!-- Screenshot 3 -->
+  <tr>
+    <td><img src="https://via.placeholder.com/250" alt="Input 3" width="250px"></td>
+    <td><img src="https://via.placeholder.com/250" alt="Output 3" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 3</b></td>
+    <td><b>Output 3</b></td>
+  </tr>
+  
+  <!-- Screenshot 4 -->
+  <tr>
+    <td><img src="https://via.placeholder.com/250" alt="Input 4" width="250px"></td>
+    <td><img src="https://via.placeholder.com/250" alt="Output 4" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 4</b></td>
+    <td><b>Output 4</b></td>
+  </tr>
+  
+  <!-- Screenshot 5 -->
+  <tr>
+    <td><img src="https://via.placeholder.com/250" alt="Input 5" width="250px"></td>
+    <td><img src="https://via.placeholder.com/250" alt="Output 5" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 5</b></td>
+    <td><b>Output 5</b></td>
+  </tr>
+  
+  <!-- Screenshot 6 -->
+  <tr>
+    <td><img src="https://via.placeholder.com/250" alt="Input 6" width="250px"></td>
+    <td><img src="https://via.placeholder.com/250" alt="Output 6" width="250px"></td>
+  </tr>
+  <tr>
+    <td><b>Input 6</b></td>
+    <td><b>Output 6</b></td>
+  </tr>
 </table>
 
 </div>
