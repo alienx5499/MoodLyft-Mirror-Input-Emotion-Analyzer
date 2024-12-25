@@ -370,25 +370,30 @@ def process_videos(detector: EmotionDetector):
             logging.warning(f"Failed to open video: {video_name}")
             continue
 
-        # Defines the output path for the annotated video.
-        output_path = os.path.join(OUTPUT_VIDEOS_DIR, f"analyzed_{video_name}")
-        
         # Retrieves video properties to maintain consistency in the output video.
         fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Defines the codec.
         fps = cap.get(cv2.CAP_PROP_FPS)
         width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
         height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        
+        if total_frames == 0:
+            logging.warning(f"Video {video_name} has 0 frames. Skipping percentage logging.")
+        
+        # Defines the output path for the annotated video.
+        output_path = os.path.join(OUTPUT_VIDEOS_DIR, f"analyzed_{video_name}")
         
         # Initializes the VideoWriter object to write the annotated video.
         out = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
 
-        logging.info(f"Processing video: {video_name}")
+        logging.info(f"Processing video: {video_name} | Total Frames: {total_frames}")
         
         frame_count = 0
+        last_logged_percentage = -1  # Initialize to an impossible percentage to ensure the first log occurs
         while cap.isOpened():
             ret, frame = cap.read()
             if not ret:
-                break  # Exit the loop if no frames are returned.
+                break  # Exit the loop if no frames are returned
 
             # Processes the frame to detect and annotate emotions.
             processed_frame, emotion_data = detector.process_frame(frame)
@@ -397,11 +402,16 @@ def process_videos(detector: EmotionDetector):
             out.write(processed_frame)
             frame_count += 1
             
-            # Optional: Log every 100 frames to avoid excessive logging
-            if frame_count % 100 == 0:
-                dominant_emotion = emotion_data.get("dominant_emotion", "No Emotion")
-                logging.info(f"Video {video_name}: Processed {frame_count} frames - Current Emotion: {dominant_emotion}")
-        
+            # Calculate the current percentage if total_frames is known
+            if total_frames > 0:
+                current_percentage = int((frame_count / total_frames) * 100)
+                
+                # Log only if the percentage has increased by at least 5%
+                if current_percentage != last_logged_percentage and current_percentage % 5 == 0:
+                    dominant_emotion = emotion_data.get("dominant_emotion", "No Emotion")
+                    logging.info(f"Video {video_name}: {current_percentage}% complete - Current Emotion: {dominant_emotion}")
+                    last_logged_percentage = current_percentage
+
         # Releases the VideoCapture and VideoWriter objects.
         cap.release()
         out.release()
